@@ -14,7 +14,7 @@ def upload_file():
     file_path = os.path.join(UPLOAD_FOLDER, file.filename)
     file.save(file_path)
 
-    public_link = f"http://your-server.com/uploads/{file.filename}"
+    public_link = f"https://f2l-m0l0.onrender.com/uploads/{file.filename}"
     return jsonify({'link': public_link}), 200
 
 if __name__ == '__main__':
