@@ -3,11 +3,11 @@ import requests
 import os
 
 # Replace with your bot token
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = '7435801551:AAEaU3HFZTRX6vr7Z3aqDziD5LC4inOT_OU'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Replace with your file upload server endpoint
-UPLOAD_URL = 'https://your-server.com/upload'
+UPLOAD_URL = 'https://f2l-m0l0.onrender.com/upload'
 
 @bot.message_handler(content_types=['document', 'photo', 'video'])
 def handle_file(message):
